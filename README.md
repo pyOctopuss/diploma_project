@@ -83,14 +83,16 @@ Generation of summary statistics and comparison tables for model performance.
 The datasets used in this project are not included in the repository due to size constraints.
 
 Raw financial time-series data should be placed in:
+```
 └── data/
     └── raw/
-
+```
 
 Processed datasets generated during the pipeline will be stored in:
+```
 └── data/
     └── processed/
-
+```
 
 
 The datasets can be reconstructed by running the notebooks starting from **01_data_preparation.ipynb**.
