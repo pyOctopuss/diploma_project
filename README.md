@@ -45,10 +45,10 @@ To run the experiments:
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook```
+jupyter notebook
+```
 
-Then open:
-```classification.ipynb```
+Then open: ``` classification.ipynb ```
 
 ## Notes
 
