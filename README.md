@@ -8,6 +8,8 @@ The project investigates statistical relationships between these assets and eval
 
 The repository is organised as a structured research pipeline implemented in Jupyter notebooks.
 
+Additional classification experiments used in a related article are available in the `classification_for_theses` branch.
+
 ---
 
 ## Repository Structure
