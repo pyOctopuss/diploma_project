@@ -11,32 +11,35 @@ The repository is organised as a structured research pipeline implemented in Jup
 ---
 
 ## Repository Structure
+
+```
 diploma_project/
-    README.md
-    requirements.txt
-    .gitignore
-    notebooks/
-        01_data_preparation.ipynb
-	02_external_data_exchange_rates.ipynb
-	03_eda_correlation.ipynb
-	04_regression_models.ipynb
-	05_classification_models.ipynb
-	06_neural_network_models.ipynb
-	07_forecasting_baseline.ipynb
-	08_forecasting_future.ipynb
-	09_results_summary_tables.ipynb
-    reports/
-	correlation_analysis/
-	    corellations_visualization_amazon.html	    	  			
-	    corellations_visualization_apple.html	    
-	    corellations_visualization_google.html	    
-	    corellations_visualization_meta.html	    
-	    corellations_visualization_netflix.html
-    figures/
-    tables/
-    data/
-	raw/
-	processed/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── notebooks/
+│   ├── 01_data_preparation.ipynb
+│   ├── 02_external_data_exchange_rates.ipynb
+│   ├── 03_eda_correlation.ipynb
+│   ├── 04_regression_models.ipynb
+│   ├── 05_classification_models.ipynb
+│   ├── 06_neural_network_models.ipynb
+│   ├── 07_forecasting_baseline.ipynb
+│   ├── 08_forecasting_future.ipynb
+│   └── 09_results_summary_tables.ipynb
+├── reports/
+│   └── correlation_analysis/
+│       ├── corellations_visualization_amazon.html
+│       ├── corellations_visualization_apple.html
+│       ├── corellations_visualization_google.html
+│       ├── corellations_visualization_meta.html
+│       └── corellations_visualization_netflix.html
+│   ├── figures/
+│   ├── tables/
+└── data/
+    ├── raw/
+    └── processed/
+```
 
 
 
@@ -80,13 +83,13 @@ Generation of summary statistics and comparison tables for model performance.
 The datasets used in this project are not included in the repository due to size constraints.
 
 Raw financial time-series data should be placed in:
-data/
-   raw/
+└── data/
+    └── raw/
 
 
 Processed datasets generated during the pipeline will be stored in:
-data/
-    processed/
+└── data/
+    └── processed/
 
 
 
@@ -105,6 +108,7 @@ pip install -r requirements.txt
 
 Then start Jupyter:
 jupyter notebook
+```
 
 ## Reproducing the Analysis
 
